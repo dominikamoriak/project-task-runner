@@ -1,7 +1,11 @@
-
-/* Variables */
+/* Variables */ 
 $font-one: 'Signika', sans-serif;
 $font-two: 'Inconsolata', monospace;
+
+/* Global */
+body {
+    background-color: aqua;
+}
 
 /* Navigation */
 .navigation ul {
