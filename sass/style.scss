@@ -3,6 +3,7 @@ $font-one: 'Open Sans', sans-serif;
 $font-two: 'Circular-Loom';
 
 $font-color-one: white;
+$font-color-two: gold;
 
 /* Global */
 body {
@@ -11,15 +12,35 @@ body {
     height: 100%;
 }
 
-/* Navigation */
-.navigation ul {
-    list-style-type: none;
+/* Splash-navigation */
+.title-brand {
+    color: $font-color-two;
+    font-family: $font-two;
+    font-family: cursive;
+    margin: 0 10px 0 90px;
+    width: 20%;
+    position: relative;
 }
 
-.navigation ul li {
+.splash-navigation {
+    width: 100%;
+    margin: 0 50px;
+}
+
+.splash-navigation ul {
+    list-style-type: none;
+    margin: 0 0 0 90px;
+    text-align: right;
+}
+
+.splash-navigation ul li {
     display: inline-block;
-    margin: 0 0 0 60px;
-    position: relative;
+    margin: 0 5px 0 10px;
+}
+
+.splash-navigation a {
+    color: $font-color-one;
+    text-decoration: none;
 }
 
 /* Splash */
@@ -42,6 +63,11 @@ body {
     text-align: center;
 }
 
+.splash-inner a {
+    color: $font-color-one;
+    text-decoration: none;
+}
+
 .page-title {
     font-family: $font-two;
     font-family: cursive;
@@ -50,7 +76,7 @@ body {
 
 .page-subtitle {
     color: $font-color-one;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* Services */ 
