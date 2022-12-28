@@ -1,3 +1,36 @@
+/* Variables */
+/* Global */
+body {
+  font-family: "Inconsolata", monospace;
+}
 
+/* Navigation */
+.navigation ul {
+  list-style-type: none;
+  font-family: "Signika", sans-serif;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Our portfolio */
+.our-portfolio {
+  position: relative;
+}
+
+.our-portfolio ul {
+  list-style-type: none;
+}
+
+.our-portfolio ul li {
+  position: relative;
+  min-height: 300px;
+  flex: 0 0 50%;
+}
+
+.portfolio-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBSUEsV0FBQTtBQUNBO0VBQ0kscUNBSk87QUNFWDs7QURLQSxlQUFBO0FBQ0E7RUFDSSxxQkFBQTtFQUNBLGtDQVhPO0FDU1g7O0FES0Esa0JBQUE7QUFFQTtFQUNJLGtCQUFBO0FDSEo7O0FETUE7RUFDSSxxQkFBQTtBQ0hKOztBRE1BO0VBQ0ksa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGFBQUE7QUNISjs7QURNQTtFQUNJLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0FDSEoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

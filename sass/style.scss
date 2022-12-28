@@ -4,12 +4,35 @@ $font-two: 'Inconsolata', monospace;
 
 /* Global */
 body {
-    background-color: aqua;
+    font-family: $font-two;
 }
 
 /* Navigation */
 .navigation ul {
     list-style-type: none;
     font-family: $font-one;
+}
+
+/* Our portfolio */
+
+.our-portfolio {
+    position: relative;
+}
+
+.our-portfolio ul {
+    list-style-type: none;
+}
+
+.our-portfolio ul li {
+    position: relative;
+    min-height: 300px;
+    flex: 0 0 50%;
+}
+
+.portfolio-image img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 300px;
 }
 
