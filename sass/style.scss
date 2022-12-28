@@ -1,6 +1,8 @@
 /* Variables */ 
 $font-one: 'Open Sans', sans-serif;
-$font-two: 'Inconsolata', monospace;
+$font-two: 'Circular-Loom';
+
+$font-color-one: white;
 
 /* Global */
 body {
@@ -23,6 +25,32 @@ body {
 /* Splash */
 .splash {
     background-image: url('https://zapodaj.net/images/1bc916d04a428.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.splash-inner {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.page-title {
+    font-family: $font-two;
+    font-family: cursive;
+    color: $font-color-one;
+}
+
+.page-subtitle {
+    color: $font-color-one;
+    font-size: 50px;
 }
 
 /* Services */ 
