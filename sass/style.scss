@@ -1,20 +1,37 @@
 /* Variables */ 
-$font-one: 'Signika', sans-serif;
+$font-one: 'Open Sans', sans-serif;
 $font-two: 'Inconsolata', monospace;
 
 /* Global */
 body {
-    font-family: $font-two;
+    font-family: $font-one;
+    margin: 0;
+    height: 100%;
 }
 
 /* Navigation */
 .navigation ul {
     list-style-type: none;
-    font-family: $font-one;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 0 0 60px;
+    position: relative;
+}
+
+/* Splash */
+.splash {
+    background-image: url('https://zapodaj.net/images/1bc916d04a428.jpg');
+}
+
+/* Services */ 
+    
+.services ul {
+list-style-type: none;
 }
 
 /* Our portfolio */
-
 .our-portfolio {
     position: relative;
 }

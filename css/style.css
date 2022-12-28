@@ -1,13 +1,30 @@
 /* Variables */
 /* Global */
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  height: 100%;
 }
 
 /* Navigation */
 .navigation ul {
   list-style-type: none;
-  font-family: "Signika", sans-serif;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 0 0 60px;
+  position: relative;
+}
+
+/* Splash */
+.splash {
+  background-image: url("https://zapodaj.net/images/1bc916d04a428.jpg");
+}
+
+/* Services */
+.services ul {
+  list-style-type: none;
 }
 
 /* Our portfolio */
@@ -33,4 +50,4 @@ body {
   height: 300px;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBSUEsV0FBQTtBQUNBO0VBQ0kscUNBSk87QUNFWDs7QURLQSxlQUFBO0FBQ0E7RUFDSSxxQkFBQTtFQUNBLGtDQVhPO0FDU1g7O0FES0Esa0JBQUE7QUFFQTtFQUNJLGtCQUFBO0FDSEo7O0FETUE7RUFDSSxxQkFBQTtBQ0hKOztBRE1BO0VBQ0ksa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGFBQUE7QUNISjs7QURNQTtFQUNJLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0FDSEoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBSUEsV0FBQTtBQUNBO0VBQ0ksb0NBTE87RUFNUCxTQUFBO0VBQ0EsWUFBQTtBQ0ZKOztBREtBLGVBQUE7QUFDQTtFQUNJLHFCQUFBO0FDRko7O0FES0E7RUFDSSxxQkFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUNGSjs7QURLQSxXQUFBO0FBQ0E7RUFDSSxxRUFBQTtBQ0ZKOztBREtBLGFBQUE7QUFFQTtFQUNBLHFCQUFBO0FDSEE7O0FETUEsa0JBQUE7QUFDQTtFQUNJLGtCQUFBO0FDSEo7O0FETUE7RUFDSSxxQkFBQTtBQ0hKOztBRE1BO0VBQ0ksa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGFBQUE7QUNISjs7QURNQTtFQUNJLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0FDSEoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
