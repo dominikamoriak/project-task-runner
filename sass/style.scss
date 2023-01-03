@@ -20,17 +20,21 @@ body {
     margin: 0 10px 0 90px;
     width: 20%;
     position: relative;
+    border: 1px solid red;
 }
 
 .splash-navigation {
     width: 100%;
     margin: 0 50px;
+    border: 1px solid green;
+    display: flex;
 }
 
 .splash-navigation ul {
     list-style-type: none;
     margin: 0 0 0 90px;
     text-align: right;
+    border: 1px solid yellow;
 }
 
 .splash-navigation ul li {
@@ -88,6 +92,8 @@ list-style-type: none;
 /* Our portfolio */
 .our-portfolio {
     position: relative;
+    background-color: hsl(0, 0%, 90%);
+    display: block;
 }
 
 .our-portfolio ul {
